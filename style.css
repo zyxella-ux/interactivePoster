@@ -1,0 +1,90 @@
+/*font: import ================================================ */
+@font-face {
+  font-family: 'variableFont';
+  src: url('./font/Trispace-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+
+/* Layout ================================================ */
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: white 0.5;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-color 1s ease-in-out, background-image 1s ease-in-out;
+}
+
+
+/* text ================================================ */
+#mainText {
+  font-family: 'variableFont';
+  font-size: 200px;
+  transition: font-variation-settings 1s ease-in-out, color 1s ease-in-out;
+}
+
+#secondText{
+  font-family: 'variableFont';
+  font-size: 100px;
+}
+#thirdText{
+  font-family: 'variableFont';
+  font-size: 100px;
+}
+.variable1 {
+  font-feature-settings: "wght" 100, "wdth" 100;
+  font-variation-settings: "wght" 549.7484, "wdth" 180.8352;
+  color: #c80000;
+}
+
+.variable2 {
+  font-feature-settings: "wght" 100, "wdth" 100;
+  font-variation-settings: "wght" 445.3388, "wdth" 86.1719;
+  color: #841093; 
+}
+
+.variable3 {
+  font-feature-settings: "wght" 445.3388, "wdth" 86.1719;
+  font-variation-settings: "wght" 321.0417, "wdth" 80.1347;
+  color: #108893;
+}
+
+.variable4 {
+  font-feature-settings: "wght" 321.0417, "wdth" 80.1347;
+  font-variation-settings: "wght" 191.7727, "wdth" 75;
+  color: #e53a1f;
+}
+
+.variable5 {
+  font-feature-settings: "wght" 100, "wdth" 100;
+  font-variation-settings: "wght" 549.7484, "wdth" 107.8352;
+  color:rgb(10, 16, 128)
+}
+
+.variable5 {
+  font-feature-settings: "wght" 100, "wdth" 100;
+  font-variation-settings: "wght" 549.7484, "wdth" 75;
+  color:rgb(10, 128, 110)
+}
+
+.variable6 {
+  font-feature-settings: "wght" 100, "wdth" 100;
+  font-variation-settings: "wght" 321, "wdth" 60;
+  color:rgb(128, 10, 112)
+}
+
+/* Image ================================================ */
+#image {
+  width: 500px;
+}
